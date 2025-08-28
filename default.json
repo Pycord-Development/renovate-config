@@ -205,15 +205,19 @@
 	"commitMessageAction": "Upgrade",
 	"packageRules": [
 		{
-			"updateTypes": ["pin"],
+			"matchUpdateTypes": ["pin"],
 			"commitMessageAction": "Pin"
 		},
 		{
-			"updateTypes": ["rollback"],
+			"matchUpdateTypes": ["rollback"],
 			"commitMessageAction": "Downgrade"
 		},
 		{
-			"matchDepTypes": ["optionalDependencies"],
+			"matchUpdateTypes": ["lockFileMaintenance"],
+			"commitMessageAction": "Update"
+		},
+		{
+			"matchUpatchDepTypes": ["optionalDependencies"],
 			"addLabels": ["optional"]
 		},
 		{
