@@ -214,7 +214,7 @@
 		},
 		{
 			"matchUpdateTypes": ["lockFileMaintenance"],
-			"commitMessageAction": "Update"
+			"commitMessageAction": "Update lock file"
 		},
 		{
 			"matchUpatchDepTypes": ["optionalDependencies"],
