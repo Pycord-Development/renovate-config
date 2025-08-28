@@ -253,10 +253,6 @@
 			"matchDatasources": ["hex"]
 		},
 		{
-			"groupName": "Python Packages",
-			"matchDatasources": ["pypi"]
-		},
-		{
 			"groupName": "Helm Packages",
 			"matchDatasources": ["helm"]
 		},
