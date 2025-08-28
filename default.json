@@ -201,7 +201,17 @@
 	],
 	"assigneesFromCodeOwners": true,
 	"labels": ["dependencies"],
+	"semanticCommits": "enabled",
+	"commitMessageAction": "Upgrade",
 	"packageRules": [
+		{
+			"updateTypes": ["pin"],
+			"commitMessageAction": "Pin"
+		},
+		{
+			"updateTypes": ["rollback"],
+			"commitMessageAction": "Downgrade"
+		},
 		{
 			"matchDepTypes": ["optionalDependencies"],
 			"addLabels": ["optional"]
