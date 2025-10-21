@@ -232,11 +232,6 @@
 			]
 		},
 		{
-			"groupName": "GitHub Packages",
-			"matchDatasources": ["github-tags","github-releases"],
-			"automerge": true
-		},
-		{
 			"groupName": "Npm Packages",
 			"matchDatasources": ["npm"]
 		},
