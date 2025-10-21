@@ -259,10 +259,6 @@
 			"groupName": "Elixir Packages",
 			"matchManagers": ["mix"]
 		},
-		{
-			"groupName": "DisCatSharp",
-			"matchPackagePatterns": [ "DisCatSharp", "discatsharp", "Discatsharp" ]
-		}
 	],
 	"docker-compose": {
 		"major": {
