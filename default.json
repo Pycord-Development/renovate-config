@@ -258,7 +258,7 @@
 		{
 			"groupName": "Elixir Packages",
 			"matchManagers": ["mix"]
-		},
+		}
 	],
 	"docker-compose": {
 		"major": {
