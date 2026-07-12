@@ -79,7 +79,6 @@
 		"group:guavaMonorepo",
 		"group:HangfireMonorepo",
 		"group:hapijsMonorepo",
-		"group:hotchocolateMonorepo",
 		"group:infrastructure-uiMonorepo",
 		"group:ionic-nativeMonorepo",
 		"group:istanbuljsMonorepo",
