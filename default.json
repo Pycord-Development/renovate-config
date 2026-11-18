@@ -293,13 +293,15 @@
             "groupName": "Python Interpreter",
             "description": "Python interpreter upgrades",
             "matchDatasources": [
-                "python-version"
+                "python-version",
+                "requires-python"
             ],
             "matchUpdateTypes": [
                 "major",
                 "minor"
             ],
-            "dependencyDashboardApproval": true
+            "dependencyDashboardApproval": true,
+            "groupName": null
         },
         {
             "docker-compose": {
