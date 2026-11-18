@@ -198,7 +198,10 @@
 		"group:spfxMonorepo",
 		"group:wordpressMonorepo"
 	],
-	"assigneesFromCodeOwners": true,
+    "assigneesFromCodeOwners": true,
+    "gitIgnoredAuthors": [
+		"66853113+pre-commit-ci[bot]@users.noreply.github.com"
+	],
 	"labels": ["dependencies"],
 	"semanticCommits": "enabled",
 	"commitMessageAction": "Upgrade",
