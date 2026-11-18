@@ -227,7 +227,7 @@
             "commitMessageAction": "Update lock file"
         },
         {
-            "matchUpatchDepTypes": [
+            "matchDepTypes": [
                 "optionalDependencies"
             ],
             "addLabels": [
@@ -290,38 +290,11 @@
             ]
         },
         {
-            "groupName": "Python Interpreter",
-            "description": "Python interpreter upgrades",
-            "matchDatasources": [
-                "python-version",
+            "description": "Widen requires-python instead of replacing it.",
+            "matchDepTypes": [
                 "requires-python"
             ],
-            "matchUpdateTypes": [
-                "major",
-                "minor"
-            ],
-            "dependencyDashboardApproval": true,
-            "groupName": null
-        },
-        {
-            "docker-compose": {
-                "major": {
-                    "enabled": true
-                },
-                "minor": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "dockerfile": {
-                "major": {
-                    "enabled": true
-                },
-                "minor": {
-                    "enabled": true
-                }
-            }
+            "rangeStrategy": "widen"
         }
     ]
 }
